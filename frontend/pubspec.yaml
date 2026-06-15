@@ -1,0 +1,41 @@
+name: frontend
+description: "Local AI Chat App — DeepSeek-R1 + FastAPI + Flutter"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Icons & UI elements
+  cupertino_icons: ^1.0.6
+  flutter_markdown: ^0.6.18+3
+  flutter_markdown_latex: ^0.3.4
+  flutter_highlight: ^0.7.0
+  shimmer: ^3.0.0
+  google_fonts: ^6.1.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Networking
+  dio: ^5.4.1
+  http: ^1.1.0  # Used for low-level byte streaming (SSE)
+  
+  # Utilities
+  uuid: ^4.3.3
+  intl: ^0.19.0
+  url_launcher: ^6.2.4
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,16 @@
+# Core
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+pydantic-settings
+
+# Database
+sqlalchemy
+aiosqlite
+
+# HTTP client (for Ollama streaming)
+httpx
+
+# Utilities
+python-multipart
